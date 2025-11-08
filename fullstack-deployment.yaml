@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: srithar1234/ecommerce-backend1:v1
+          image: bbslmayukha/quizbuilder:v1
           ports:
             - containerPort: 8080
           env:
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: srithar1234/ecommerce-frontend1:v1
+          image: bbslmayukha/quizbuilder:v1
           ports:
             - containerPort: 8080
           env:
